@@ -94,17 +94,22 @@
         <h2 class="my-4">
           Ask a Question
         </h2>
-        <form>
+        <form id="form1">
           <div class="form-row ">
-            <div class="form-group col-md-10 mx-auto">
-              <input type="text" class="form-control" id="inputName4" name="quesQuery" placeholder="Search... ">
+            <div class="form-group col-md-12">
+              <input style="width:1000px" type="text" class="form-control" id="query" name="quesQuery" placeholder="Search... ">
             </div>
+            <button type="submit" class="mx-auto btn btn-success my-2" onclick="getQuery()">Submit</button>
+          </div>
         </form>
         <p class=" mx-auto">
           Expert teachers and 24/7 chatbot assistance, Collaborative, inclusive, and innovative education.
         </p>
       </div>
     </div>
+
+    <div id="answer"></div>
+    <img id="imgGen">
   </section>
   <!-- end service section -->
 
